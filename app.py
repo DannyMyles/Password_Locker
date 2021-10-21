@@ -1,5 +1,15 @@
-from flask import Flask, app
-app = Flask(__name__)
-@app.route("/")
-def hello_world():
-    return "<p>Hellow, World!<p>"
+from models.user import User
+
+
+credentials = []
+user = None
+def signUp():
+    name= input("Enter your fullname :")
+    email=input("Enter your email :")
+    username= input("Enter your username :")
+    password=input("Enter your password :")
+    print("welcome "+name)
+
+if __name__ ==  "__main__":
+    if user is None:
+        signUp()
