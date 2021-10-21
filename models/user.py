@@ -2,11 +2,7 @@ from _typeshed import Self
 
 
 class User:
-    def _init_(self,name, email):
+    def _init_(self,name, username,email):
         self.name = name
         self.email = email
-
-    def Sign_in(self,username, password):
         self.username =username
-        self.password=password
-
