@@ -32,18 +32,19 @@ def Main():
     print("4: Retrive credentials ")
     action = input()
 
-    if action==1:
-        if user is None:
-            SignIn()
-        elif(action==2):
-            signUp()
+    print("int(action) "+int(action))
 
-        elif(action==3):
-           createCredential()
+    if int(action)==1:
+        SignIn()
 
-        elif(action==4):
-           retriveCredential()
-        
+    elif int(action)==2:
+        signUp()
+
+    elif int(action)==3:
+        createCredential()
+
+    elif int(action)==4:
+        retriveCredential()
 
 
 if __name__ ==  "__main__":
@@ -51,5 +52,5 @@ if __name__ ==  "__main__":
         try:
             Main()
 
-        except KeyboardInterrupt:
+        except Keyboardinterrupt:
             print("Exit system")
