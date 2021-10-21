@@ -15,6 +15,17 @@ def SignIn():
         username= input("Enter your username :")
         password=getpass("Enter your password :")
 
+def createCredential():
+    username= input("Enter your username :")
+    domain= input("Enter your domain :")
+    password=getpass("Enter your password :")
+
+def createCredential():
+    username= input("Enter your username :")
+    domain= input("Enter your domain :")
+    password=getpass("Enter your password :")
+
+
 def Main():
     print("select an option:")
     print("1: Sign-in")
