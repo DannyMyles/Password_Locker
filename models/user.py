@@ -10,3 +10,6 @@ class User:
 class Users:
    def signIn(self,username,password):
        print(username)
+
+   def signUp(self,user,password):
+        print(user)
