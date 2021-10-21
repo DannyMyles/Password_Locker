@@ -21,9 +21,7 @@ def createCredential():
     password=getpass("Enter your password :")
 
 def retriveCredential():
-    username= input("Enter your username :")
     domain= input("Enter your domain :")
-    password=getpass("Enter your password :")
 
 
 def Main():
@@ -39,6 +37,12 @@ def Main():
             SignIn()
         elif(action==2):
             signUp()
+
+        elif(action==3):
+           createCredential()
+
+        elif(action==4):
+           retriveCredential()
         
 
 
