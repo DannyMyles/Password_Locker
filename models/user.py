@@ -6,3 +6,7 @@ class User:
         self.name = name
         self.email = email
         self.username =username
+
+class Users:
+   def signIn(self,username,password):
+       print(username)
