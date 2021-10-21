@@ -3,12 +3,16 @@ from getpass import getpass
 
 credentials = []
 user = None
+users =None
 def signUp():
     name= input("Enter your fullname :")
     email=input("Enter your email :")
     username= input("Enter your username :")
     password=getpass("Enter your password :")
     print("welcome "+name)
+
+def SignIn():
+
 
 def Main():
     print("select an option:")
@@ -18,12 +22,16 @@ def Main():
     print("4: Retrive credentials ")
     action = input()
 
+    if action==1:
+        if user is None:
+            signUp()
+        else
+
 
 if __name__ ==  "__main__":
     while True:
         try:
-            if user is None:
-                signUp()
+            Main()
 
         except KeyboardInterrupt:
             print("Exit system")
