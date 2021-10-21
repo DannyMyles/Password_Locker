@@ -20,7 +20,7 @@ def createCredential():
     domain= input("Enter your domain :")
     password=getpass("Enter your password :")
 
-def createCredential():
+def retriveCredential():
     username= input("Enter your username :")
     domain= input("Enter your domain :")
     password=getpass("Enter your password :")
