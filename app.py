@@ -12,7 +12,8 @@ def signUp():
     print("welcome "+name)
 
 def SignIn():
-
+        username= input("Enter your username :")
+        password=getpass("Enter your password :")
 
 def Main():
     print("select an option:")
@@ -24,8 +25,10 @@ def Main():
 
     if action==1:
         if user is None:
+            SignIn()
+        elif(action==2):
             signUp()
-        else
+        
 
 
 if __name__ ==  "__main__":
