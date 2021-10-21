@@ -10,6 +10,15 @@ def signUp():
     password=getpass("Enter your password :")
     print("welcome "+name)
 
+def Main():
+    print("select an option:")
+    print("1: Sign-in")
+    print("2: Sign-up")
+    print("3: create credentials")
+    print("4: Retrive credentials ")
+    action = input()
+
+
 if __name__ ==  "__main__":
     while True:
         try:
@@ -17,4 +26,4 @@ if __name__ ==  "__main__":
                 signUp()
 
         except KeyboardInterrupt:
-            print()
+            print("Exit system")
