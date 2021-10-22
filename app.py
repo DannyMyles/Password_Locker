@@ -1,4 +1,5 @@
-from models.user import User
+from os import path
+from models.user import User, Users
 from getpass import getpass
 
 credentials = []
@@ -9,11 +10,21 @@ def signUp():
     email=input("Enter your email :")
     username= input("Enter your username :")
     password=getpass("Enter your password :")
-    print("welcome "+name)
+    appUser=User(name,username,email,password)
+    appUsers = Users()
+    response= appUsers.signUp(appUsers)
+    print(response)
 
 def SignIn():
         username= input("Enter your username :")
         password=getpass("Enter your password :")
+        appUsers= Users()
+        user =appUsers.signIn(username,password)
+        if user is None:
+            print("User name or password invalic")
+        else:
+            print("welcome " +user.name+"you can now manage your password")
+
 
 def createCredential():
     username= input("Enter your username :")
@@ -32,7 +43,7 @@ def Main():
     print("4: Retrive credentials ")
     action = input()
 
-    print("int(action) "+int(action))
+    print("(action) "+(action))
 
     if int(action)==1:
         SignIn()
@@ -52,5 +63,5 @@ if __name__ ==  "__main__":
         try:
             Main()
 
-        except Keyboardinterrupt:
+        except KeyboardInterrupt:
             print("Exit system")
