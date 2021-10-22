@@ -56,7 +56,7 @@ As a user I would like to... :
 * Python3.9.1
 
 ## Contact Informarion
-If you have any question or contributions, please email me at   [dannymyles1999.com] [dancun.wawire@student.moringaschool.com]
+If you have any question or contributions, please email me at [dannymyles1999.com] [dancun.wawire@student.moringaschool.com]
 
 ## License
 * MIT License:
