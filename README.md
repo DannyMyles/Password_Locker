@@ -55,7 +55,7 @@ As a user I would like to... :
 ## Technology Used
 * Python3.9.1
 
-## Contact Informarion
+## Contact Info:
 If you have any question or contributions, please email me at [dannymyles1999@gmail.com] [dancun.wawire@student.moringaschool.com]
 
 ## License
