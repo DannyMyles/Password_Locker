@@ -1,4 +1,4 @@
- class Credential:
+class Credential:
      def __init__(self,user,username,domain,password):
          self.user =user
          self.username = username
@@ -16,3 +16,5 @@ class Credentials:
 
     def Delete(self,credential):
         print(credential)
+
+
