@@ -25,7 +25,7 @@ To run the application, open the cloned file in terminal and run the following c
 
       $ ./run.py
 
-To run test for the application *use $ python3.6 run_test.py
+To run test for the application *use $ python3.9 run_test.py
 
 ## User Story
 As a user I would like to... :
